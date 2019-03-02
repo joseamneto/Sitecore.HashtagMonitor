@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {EB564A21-CF46-4351-B604-6E12713F9865}
+database: master
+path: /sitecore/layout/Renderings/Project/Common/One Column
+parent: {FD6A6AE3-A3F5-4547-91F5-7B367897366E}
+name: One Column
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20180218T192805Z
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 41
+
+/Views/Common/Sublayouts/OneColumn.cshtml
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{CCA61CB8-58FB-4624-8402-671C13104D7C}
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 58
+
+<image mediaid="{E70F6AF2-B397-4032-B843-BC656DD8FA7D}" />
+----version----
+language: en
+version: 1
+revision: 08c2ab88-6304-450c-89e1-ffc940a90930
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180218T192806Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+08c2ab88-6304-450c-89e1-ffc940a90930
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180219T154526Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

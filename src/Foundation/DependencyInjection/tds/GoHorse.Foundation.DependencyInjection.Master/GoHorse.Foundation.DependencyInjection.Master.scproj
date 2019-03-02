@@ -1,0 +1,59 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>dcab64b4-4820-4c46-a747-4e3b0ac3dac2</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>GoHorse.Foundation.DependencyInjection.Master</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>GoHorse.Foundation.DependencyInjection.Master</AssemblyName>
+    <Name>GoHorse.Foundation.DependencyInjection.Master</Name>
+    <RootNamespace>GoHorse.Foundation.DependencyInjection.Master</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SourceWebProjects Include="{f8bb7dfb-c363-448f-a250-6e78fc0d6e08}|src\Foundation\DependencyInjection\code\GoHorse.Foundation.DependencyInjection.csproj">
+      <SourceWebPhysicalPath>..\..\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Foundation.DependencyInjection.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>f8bb7dfb-c363-448f-a250-6e78fc0d6e08</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{f8bb7dfb-c363-448f-a250-6e78fc0d6e08}|src\Foundation\DependencyInjection\code\GoHorse.Foundation.DependencyInjection.csproj">
+      <SourceWebPhysicalPath>..\..\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Foundation.DependencyInjection.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>f8bb7dfb-c363-448f-a250-6e78fc0d6e08</SourceWebProjectId>
+    </SourceWebProjects>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\code\GoHorse.Foundation.DependencyInjection.csproj">
+      <Project>{f8bb7dfb-c363-448f-a250-6e78fc0d6e08}</Project>
+      <Name>GoHorse.Foundation.DependencyInjection</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

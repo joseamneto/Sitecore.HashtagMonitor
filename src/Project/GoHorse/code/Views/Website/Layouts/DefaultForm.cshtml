@@ -1,0 +1,27 @@
+﻿@using GoHorse.Foundation.Assets.Models
+@using GoHorse.Foundation.Assets.Services
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+
+@{
+    Layout = "MvcOuterLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
+<head>
+</head>
+<body>
+
+    @Html.Sitecore().Placeholder("page-header")
+
+    @Html.Sitecore().Placeholder("page")
+
+    @Html.Sitecore().Placeholder("page-footer")
+
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
+
+</body>
+</html>

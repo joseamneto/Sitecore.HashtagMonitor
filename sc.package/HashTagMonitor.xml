@@ -1,0 +1,111 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>HashTagMonitor</PackageName>
+      <Author>Team Go Horse</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Sitecore.HashTagMonitor.config</x-item>
+        <x-item>/bin/Sitecore.HashTagMonitor.Api.dll</x-item>
+        <x-item>/bin/Sitecore.HashTagMonitor.Web.dll</x-item>
+        <x-item>/bin/Hammock.dll</x-item>
+        <x-item>/bin/TweetSharp.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/HashTagMonitor/{C7367DB5-08AE-4D7E-BA31-19C7CA64010A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/HashTagMonitor/HashTag Folder/__Standard Values/{5C7B1CBC-A419-4744-AC2A-00D2B8DD4892}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/HashTagMonitor/HashTag Folder/{25392608-13DE-4475-82D5-9F4BB8C11C65}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/HashTagMonitor/HashTag/__Standard Values/{616AD099-6772-405A-88CC-1605B37C87F2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/HashTagMonitor/HashTag/{C302BA3A-3B47-4C23-B531-6D327372F5E2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/HashTagMonitor/HashTag/Configuration/{AA8264CA-C364-472D-ACB1-00F62CCA4D77}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/HashTagMonitor/HashTag/Configuration/Goal/{A9929B36-7C43-424F-A4D1-FA94A4AA3DBC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/HashTagMonitor/HashTag/Configuration/Hashtag/{1F972D3A-F69D-4A4A-B9DF-811B24F07C15}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/HashTagMonitor/HashTag/Configuration/Pattern Card/{3D910726-BA96-41DF-8AFE-48716E715D53}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Templates</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Goals/HashTagMonitor/{0C43C4F9-9A28-4182-B6FA-E86527DC67FB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Goals/HashTagMonitor/Tweeted on tag SCHackathon/{1C335DA5-3860-4266-8A43-FE574A8F1A44}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/{D2C5ADE3-B2E4-4881-BE19-7722EE3C53DE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Music/{E71EE504-7364-4067-B462-9AAD485D22C0}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Pattern Cards/{168BD7A1-3B85-4345-854C-9649C9C0ADAD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Pattern Cards/Geek/{C931C746-2D7D-45C5-8F74-31B2325EAF59}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Pattern Cards/Military/{DBB2C930-D5EA-4AAF-A2C7-7099F64D3519}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Pattern Cards/Musician/{83C245ED-D693-4AED-A4A7-5070C3487594}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Pattern Cards/Religious/{AEA7957F-A1F6-4439-9664-088188AB3D8A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Profile Cards/{2FF6C126-387D-4819-BF7F-F99FBC74C450}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Profile Cards/Joao/{34734A37-903B-4E43-9D60-00BEBE7BE084}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Profile Cards/Jose/{A130217E-2B06-41E9-B361-956F06AD59BD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Profile Cards/Rodrigo/{DAF0287A-FC8E-4FC7-84BF-D5F5BFA3FAB1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Spiritual/{1298AAA9-5789-4467-9BD0-43F6D1CCE754}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Tech/{FDF3BEDB-6D51-416C-A85B-DD438CF227FD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Marketing Control Panel/Profiles/HashTagMonitor/Weapons/{D6BC6F75-706D-42F9-AE9A-C65037F3FC2B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/HashTagMonitor/{12A4EC83-4D13-449A-A127-0A492FCC149E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/HashTagMonitor/Test/{C039FAB5-56CA-45B8-9217-EBDF4A4F628C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/HashTagMonitor/Test/SCHackathon/{4CF7DC0E-4FCA-4FF2-8A8B-536FD2E57013}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Tasks/Commands/HashTagMonitorCommand/{A37C56E3-F46E-4E52-B244-2418DE059494}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Tasks/Schedules/HashTagMonitor Schedule/{539F1533-51A7-4E12-8829-031E0E1822AB}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>System</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

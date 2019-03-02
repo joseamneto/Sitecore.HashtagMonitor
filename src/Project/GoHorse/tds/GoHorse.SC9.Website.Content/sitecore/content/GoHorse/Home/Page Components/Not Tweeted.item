@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {573F6EC4-70AF-4818-BD38-8591A1CABA24}
+database: master
+path: /sitecore/content/GoHorse/Home/Page Components/Not Tweeted
+parent: {2D221E9D-7720-4425-B45D-F6035CC3704D}
+name: Not Tweeted
+master: {00000000-0000-0000-0000-000000000000}
+template: {D1E5C18E-E698-4E80-9A13-39F2454058A8}
+templatekey: Teaser
+created: 20180303T192552Z
+
+----version----
+language: en
+version: 1
+revision: c91515ce-218c-440e-b531-c56ae5b18c5f
+
+----field----
+field: {D47A8DF6-A0D7-4954-8057-71183A1B113A}
+name: TeaserImage
+key: teaserimage
+content-length: 65
+
+<image mediaid="{F4143843-57AD-419B-AAEF-6C4180FBCB76}" ></image>
+----field----
+field: {F1ECD4C7-6F4A-4E29-82A9-A52B13E9EA7B}
+name: TeaserTitle
+key: teasertitle
+content-length: 19
+
+Join us on Tweeter!
+----field----
+field: {4F9A26AC-2B74-4ED9-AC3F-E1D6B6BE2E5D}
+name: TeaserSubtitle
+key: teasersubtitle
+content-length: 28
+
+Use the hashtag #SCHackathon
+----field----
+field: {CCB11615-9EA8-49C5-8DA7-9237F41929E6}
+name: TeaserSummary
+key: teasersummary
+content-length: 52
+
+Join us on tweeter and use our hashtag #SCHackathon!
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180218T201802Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c91515ce-218c-440e-b531-c56ae5b18c5f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180303T192956Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

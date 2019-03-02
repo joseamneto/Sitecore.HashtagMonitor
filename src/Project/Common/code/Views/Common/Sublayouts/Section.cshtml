@@ -1,0 +1,5 @@
+﻿@using GoHorse.Foundation.Theming.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+<section class="page-section @Model.Rendering.GetBackgroundClass()">
+    @Html.Sitecore().DynamicPlaceholder("section")
+</section>

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>ce8095c8-6a8f-40a3-9033-5a7941d83dfd</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Sandbox.SC9u1.Website.Content</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>Sandbox.SC9u1.Website.Content</AssemblyName>
+    <Name>GoHorse.SC9.Website.Content</Name>
+    <RootNamespace>Sandbox.SC9u1.Website.Content</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <PackageName>GoHorse_Sample_Site</PackageName>
+    <PackageAuthor>GoHorse Team</PackageAuthor>
+    <PackagePublisher>GoHorse Team</PackagePublisher>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath />
+    <GeneratePackage>False</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\GoHorse.SC9.Website.Content_Debug.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <PackageName>GoHorse_Sample_Site</PackageName>
+    <PackageAuthor>GoHorse Team</PackageAuthor>
+    <PackagePublisher>GoHorse Team</PackagePublisher>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath />
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\content.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Home.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Home\Page Components.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Home\Page Components\Fresh Coffee Worth Drinking.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Home\Page Components\Not Tweeted.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Home\Page Components\Our Promise To You.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Home\Page Components\Tweeted.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Home\Page Components\Visit Us Today.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Home\Visit us.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Site Components.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\GoHorse\Site Settings.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Leave us a message.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 1.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 1\Contact First Name.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 2.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 2\Contact Last Name.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 3.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 3\Contact E-mail Account.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 4.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 4\Contact Twitter Account.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 5.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 5\Contact Message.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 6.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 6\Submit Button.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 6\Submit Button\SubmitActions.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 6\Submit Button\SubmitActions\Redirect to Page.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 6\Submit Button\SubmitActions\Save Data.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Forms\Visit us\Page\Section 6\Submit Button\SubmitActions\Update Contact Details.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <SourceWebProjects Include="{0a1407ff-c5c5-4146-88b5-dd0eeff9419a}|src\Foundation\Theming\code\GoHorse.Foundation.Theming.csproj">
+      <SourceWebPhysicalPath>..\..\..\..\Foundation\Theming\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Foundation.Theming.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>0a1407ff-c5c5-4146-88b5-dd0eeff9419a</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{183c8d1e-4f1f-4d55-86ed-455cb76e20fa}|src\Foundation\Alerts\code\GoHorse.Foundation.Alerts.csproj">
+      <SourceWebPhysicalPath>..\..\..\..\Foundation\Alerts\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Foundation.Alerts.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>183c8d1e-4f1f-4d55-86ed-455cb76e20fa</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{295d094b-ff5c-4880-b7e5-5926e1ceff66}|src\Feature\Teasers\code\GoHorse.Feature.Teasers.csproj">
+      <SourceWebPhysicalPath>..\..\..\..\Feature\Teasers\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Feature.Teasers.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>295d094b-ff5c-4880-b7e5-5926e1ceff66</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{29c61e70-e5f3-4a29-8241-dc522cf37805}|src\Feature\Identity\code\GoHorse.Feature.Identity.csproj">
+      <SourceWebPhysicalPath>..\..\..\..\Feature\Identity\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Feature.Identity.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>29c61e70-e5f3-4a29-8241-dc522cf37805</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{80f01ce0-68db-421c-995e-d1c57368dc3f}|src\Feature\Metadata\code\GoHorse.Feature.Metadata.csproj">
+      <SourceWebPhysicalPath>..\..\..\..\Feature\Metadata\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Feature.Metadata.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>80f01ce0-68db-421c-995e-d1c57368dc3f</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{864dc86f-6858-4047-9013-d6fdc80046c1}|src\Foundation\SitecoreExtensions\code\GoHorse.Foundation.SitecoreExtensions.csproj">
+      <SourceWebPhysicalPath>..\..\..\..\Foundation\SitecoreExtensions\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Foundation.SitecoreExtensions.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>864dc86f-6858-4047-9013-d6fdc80046c1</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{9a10a95b-766d-4a5f-ad24-959d0c4459ee}|src\Project\Common\code\GoHorse.Common.Website.csproj">
+      <SourceWebPhysicalPath>..\..\..\Common\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Common.Website.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>9a10a95b-766d-4a5f-ad24-959d0c4459ee</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{c490c556-ee90-4584-ad64-57566b88cbff}|src\Foundation\Assets\code\GoHorse.Foundation.Assets.csproj">
+      <SourceWebPhysicalPath>..\..\..\..\Foundation\Assets\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Foundation.Assets.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>c490c556-ee90-4584-ad64-57566b88cbff</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{cf8f779e-caef-4de4-9e5e-8e154c3491d1}|src\Feature\Forms\code\GoHorse.Feature.Forms.csproj">
+      <SourceWebPhysicalPath>..\..\..\..\Feature\Forms\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Feature.Forms.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>cf8f779e-caef-4de4-9e5e-8e154c3491d1</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{d6476e07-fad9-44f1-8a07-1a6d22715c3a}|src\Project\GoHorse\code\GoHorse.SC9.Website.csproj">
+      <SourceWebPhysicalPath>..\..\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.SC9.Website.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>d6476e07-fad9-44f1-8a07-1a6d22715c3a</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{f8bb7dfb-c363-448f-a250-6e78fc0d6e08}|src\Foundation\DependencyInjection\code\GoHorse.Foundation.DependencyInjection.csproj">
+      <SourceWebPhysicalPath>..\..\..\..\Foundation\DependencyInjection\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Foundation.DependencyInjection.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>f8bb7dfb-c363-448f-a250-6e78fc0d6e08</SourceWebProjectId>
+    </SourceWebProjects>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Feature\Forms\code\GoHorse.Feature.Forms.csproj">
+      <Project>{cf8f779e-caef-4de4-9e5e-8e154c3491d1}</Project>
+      <Name>GoHorse.Feature.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Forms\tds\GoHorse.Feature.Forms.Core\GoHorse.Feature.Forms.Core.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Forms\tds\GoHorse.Feature.Forms.Master\GoHorse.Feature.Forms.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Identity\code\GoHorse.Feature.Identity.csproj">
+      <Project>{29c61e70-e5f3-4a29-8241-dc522cf37805}</Project>
+      <Name>GoHorse.Feature.Identity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Identity\tds\GoHorse.Feature.Identity.Master\GoHorse.Feature.Identity.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Metadata\code\GoHorse.Feature.Metadata.csproj">
+      <Project>{80f01ce0-68db-421c-995e-d1c57368dc3f}</Project>
+      <Name>GoHorse.Feature.Metadata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Metadata\tds\GoHorse.Feature.Metadata.Master\GoHorse.Feature.Metadata.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Teasers\code\GoHorse.Feature.Teasers.csproj">
+      <Project>{295d094b-ff5c-4880-b7e5-5926e1ceff66}</Project>
+      <Name>GoHorse.Feature.Teasers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Teasers\tds\GoHorse.Feature.Teasers.Master\GoHorse.Feature.Teasers.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\Alerts\code\GoHorse.Foundation.Alerts.csproj">
+      <Project>{183c8d1e-4f1f-4d55-86ed-455cb76e20fa}</Project>
+      <Name>GoHorse.Foundation.Alerts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\Alerts\tds\GoHorse.Foundation.Alerts.Master\GoHorse.Foundation.Alerts.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\Assets\code\GoHorse.Foundation.Assets.csproj">
+      <Project>{c490c556-ee90-4584-ad64-57566b88cbff}</Project>
+      <Name>GoHorse.Foundation.Assets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\Assets\tds\GoHorse.Foundation.Assets.Master\GoHorse.Foundation.Assets.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\DependencyInjection\code\GoHorse.Foundation.DependencyInjection.csproj">
+      <Project>{f8bb7dfb-c363-448f-a250-6e78fc0d6e08}</Project>
+      <Name>GoHorse.Foundation.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\DependencyInjection\tds\GoHorse.Foundation.DependencyInjection.Master\GoHorse.Foundation.DependencyInjection.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\SitecoreExtensions\code\GoHorse.Foundation.SitecoreExtensions.csproj">
+      <Project>{864dc86f-6858-4047-9013-d6fdc80046c1}</Project>
+      <Name>GoHorse.Foundation.SitecoreExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\SitecoreExtensions\tds\GoHorse.Foundation.SitecoreExtensions.Master\GoHorse.Foundation.SitecoreExtensions.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\Theming\code\GoHorse.Foundation.Theming.csproj">
+      <Project>{0a1407ff-c5c5-4146-88b5-dd0eeff9419a}</Project>
+      <Name>GoHorse.Foundation.Theming</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\Theming\tds\GoHorse.Foundation.Theming.Master\GoHorse.Foundation.Theming.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common\code\GoHorse.Common.Website.csproj">
+      <Project>{9a10a95b-766d-4a5f-ad24-959d0c4459ee}</Project>
+      <Name>GoHorse.Common.Website</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common\tds\GoHorse.Common.Website.Master\GoHorse.Common.Website.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\code\GoHorse.SC9.Website.csproj">
+      <Project>{d6476e07-fad9-44f1-8a07-1a6d22715c3a}</Project>
+      <Name>GoHorse.SC9.Website</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoHorse.SC9.Website.Master\GoHorse.SC9.Website.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\GoHorse.SC9.Website.Media\GoHorse.SC9.Website.Media.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundledProject Include="..\..\..\..\Feature\Forms\tds\GoHorse.Feature.Forms.Core\GoHorse.Feature.Forms.Core.scproj">
+      <ProjectId>{1ee5ac10-9e48-4048-a8d8-634e203d44d7}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Feature\Forms\tds\GoHorse.Feature.Forms.Master\GoHorse.Feature.Forms.Master.scproj">
+      <ProjectId>{e190645a-81e8-4cfb-bdba-72398fbf8fd4}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Feature\Identity\tds\GoHorse.Feature.Identity.Master\GoHorse.Feature.Identity.Master.scproj">
+      <ProjectId>{64247ee1-8de6-4a5e-b67d-3738e8012eb3}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Feature\Metadata\tds\GoHorse.Feature.Metadata.Master\GoHorse.Feature.Metadata.Master.scproj">
+      <ProjectId>{5d917896-0dc6-49f1-9df7-df5308bd0de6}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Feature\Teasers\tds\GoHorse.Feature.Teasers.Master\GoHorse.Feature.Teasers.Master.scproj">
+      <ProjectId>{181f72da-2dd6-478c-bba4-5ddecc83fa06}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\Alerts\tds\GoHorse.Foundation.Alerts.Master\GoHorse.Foundation.Alerts.Master.scproj">
+      <ProjectId>{92323d97-ad6d-4320-b0ab-eb721b3ac14a}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\Assets\tds\GoHorse.Foundation.Assets.Master\GoHorse.Foundation.Assets.Master.scproj">
+      <ProjectId>{ed54eedc-68ac-4efe-bf83-6cfb4acb9dc8}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\DependencyInjection\tds\GoHorse.Foundation.DependencyInjection.Master\GoHorse.Foundation.DependencyInjection.Master.scproj">
+      <ProjectId>{dcab64b4-4820-4c46-a747-4e3b0ac3dac2}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\SitecoreExtensions\tds\GoHorse.Foundation.SitecoreExtensions.Master\GoHorse.Foundation.SitecoreExtensions.Master.scproj">
+      <ProjectId>{3823c859-4e14-4111-9a61-3fde9c5a2d5b}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\Theming\tds\GoHorse.Foundation.Theming.Master\GoHorse.Foundation.Theming.Master.scproj">
+      <ProjectId>{8dc4af68-4b7c-47da-bc0b-39464bad311c}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\Common\tds\GoHorse.Common.Website.Master\GoHorse.Common.Website.Master.scproj">
+      <ProjectId>{a1ca43b5-8dfb-4cea-87ea-7b9ae4c8564c}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\GoHorse.SC9.Website.Master\GoHorse.SC9.Website.Master.scproj">
+      <ProjectId>{b2de5e5c-9a11-4754-99be-75fc89e83622}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\GoHorse.SC9.Website.Media\GoHorse.SC9.Website.Media.scproj">
+      <ProjectId>{12005a25-bd0b-463b-9515-2853410efc84}</ProjectId>
+    </BundledProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

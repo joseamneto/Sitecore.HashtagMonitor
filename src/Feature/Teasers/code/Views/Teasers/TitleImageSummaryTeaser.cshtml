@@ -1,0 +1,40 @@
+﻿@using GoHorse.Feature.Teasers
+@using GoHorse.Foundation.Alerts
+@using GoHorse.Foundation.Alerts.Extensions
+@using GoHorse.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@if (!Model?.Item?.IsDerived(Templates.TeaserContent.ID) ?? true)
+{
+    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.TeaserContent.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+    return;
+}
+
+<div class="intro">
+
+    @Html.Sitecore().ImageField(Templates.TeaserContent.Fields.Image, Model.Item, cssClass: "intro-img img-fluid mb-3 mb-lg-0 rounded")
+
+    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+
+        <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">@Html.Sitecore().Field(Templates.TeaserHeadline.Fields.Title, Model.Item)</span>
+            <span class="section-heading-lower">@Html.Sitecore().Field(Templates.TeaserHeadline.Fields.Subtitle, Model.Item)</span>
+        </h2>
+
+        <p class="mb-3">
+            @if (!Model.Item.FieldHasValue(Templates.TeaserContent.Fields.Link)
+                 || Sitecore.Context.PageMode.IsExperienceEditor)
+            {
+                @Html.Sitecore().Field(Templates.TeaserContent.Fields.Summary, Model.Item)
+            }
+            else
+            {
+                <a href="@Model.Item.LinkFieldUrl(Templates.TeaserContent.Fields.Link)">
+                    @Html.Sitecore().Field(Templates.TeaserContent.Fields.Summary, Model.Item)
+                </a>
+            }
+        </p>
+
+        @Html.Sitecore().DynamicPlaceholder("teaser-bottom")
+    </div>
+</div>

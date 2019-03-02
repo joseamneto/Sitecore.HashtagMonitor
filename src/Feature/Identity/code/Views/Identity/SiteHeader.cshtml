@@ -1,0 +1,18 @@
+﻿@using GoHorse.Feature.Identity
+@using GoHorse.Feature.Identity.Repositories
+@using Sitecore
+@using GoHorse.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var identity = IdentityRepository.Get(Model.Item);
+    if (identity == null)
+    {
+        return;
+    }
+}
+
+<h1 class="site-heading text-center text-white d-none d-lg-block">
+    <span class="site-heading-upper text-primary mb-3">@Html.Sitecore().Field(Templates.Identity.Fields.SiteHeadingUpperText, identity)</span>
+    <span class="site-heading-lower">@Html.Sitecore().Field(Templates.Identity.Fields.SiteHeadingLowerText, identity)</span>
+</h1>

@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {E4915361-E399-4C44-9908-12BBEB080890}
+database: master
+path: /sitecore/templates/Project/Common/Page Types/Page with form
+parent: {1B51FBE4-FB2C-4C84-8ACF-BD9554B9A818}
+name: Page with form
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+created: 20180113T193940Z
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 77
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{FFF03E52-A60E-474B-8A73-387AC7906079}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{919B79A3-0741-40AE-A8BB-022C7A09F16B}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 34
+
+ApplicationsV2/16x16/form_blue.png
+----version----
+language: en
+version: 1
+revision: 43c4cd18-df3e-42dc-a448-71a8886d075d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180113T193940Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+43c4cd18-df3e-42dc-a448-71a8886d075d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180303T154712Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

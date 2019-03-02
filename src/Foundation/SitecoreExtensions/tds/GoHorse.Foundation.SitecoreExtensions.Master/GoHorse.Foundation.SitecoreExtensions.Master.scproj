@@ -1,0 +1,66 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3823c859-4e14-4111-9a61-3fde9c5a2d5b</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>GoHorse.Foundation.SitecoreExtensions.Master</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>GoHorse.Foundation.SitecoreExtensions.Master</AssemblyName>
+    <Name>GoHorse.Foundation.SitecoreExtensions.Master</Name>
+    <RootNamespace>GoHorse.Foundation.SitecoreExtensions.Master</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <SitecoreWebUrl>http://sandboxsc9u1.sc</SitecoreWebUrl>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <LightningDeployMode>False</LightningDeployMode>
+    <SitecoreDeployFolder>X:\inetpub\wwwroot\SandboxSc9u1.sc</SitecoreDeployFolder>
+    <SitecoreAccessGuid>2482a1e4-0355-4208-b2e1-007cd4e9c14a</SitecoreAccessGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SourceWebProjects Include="{864dc86f-6858-4047-9013-d6fdc80046c1}|src\Foundation\SitecoreExtensions\code\GoHorse.Foundation.SitecoreExtensions.csproj">
+      <SourceWebPhysicalPath>..\..\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Foundation.SitecoreExtensions.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>864dc86f-6858-4047-9013-d6fdc80046c1</SourceWebProjectId>
+    </SourceWebProjects>
+    <SourceWebProjects Include="{864dc86f-6858-4047-9013-d6fdc80046c1}|src\Foundation\SitecoreExtensions\code\GoHorse.Foundation.SitecoreExtensions.csproj">
+      <SourceWebPhysicalPath>..\..\code</SourceWebPhysicalPath>
+      <SourceWebVirtualPath>/GoHorse.Foundation.SitecoreExtensions.csproj</SourceWebVirtualPath>
+      <SourceWebProjectId>864dc86f-6858-4047-9013-d6fdc80046c1</SourceWebProjectId>
+    </SourceWebProjects>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\code\GoHorse.Foundation.SitecoreExtensions.csproj">
+      <Project>{864dc86f-6858-4047-9013-d6fdc80046c1}</Project>
+      <Name>GoHorse.Foundation.SitecoreExtensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

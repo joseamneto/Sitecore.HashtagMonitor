@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {AB10C2A5-6662-4818-BCB7-8AD8054361CE}
+database: master
+path: /sitecore/content/GoHorse
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: GoHorse
+master: {00000000-0000-0000-0000-000000000000}
+template: {A26D77FA-7F70-40FB-AF25-AD379A9E55E5}
+templatekey: Site Root
+created: 20180216T121931Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 46b60129-dcf3-4115-a0b6-1c0e052cfbbb
+
+----field----
+field: {60980910-DF3F-4C3D-B534-B1509CDEADFF}
+name: SiteHeadingUpperText
+key: siteheadinguppertext
+content-length: 14
+
+Welcome to the
+----field----
+field: {8C61EAD7-FB91-4870-9187-E7A42F6C5A0C}
+name: SiteHeadingLowerText
+key: siteheadinglowertext
+content-length: 13
+
+go-horse Café
+----field----
+field: {CCD0F430-4DB8-4DFD-B57A-19EB2A767995}
+name: OrganisationName
+key: organisationname
+content-length: 7
+
+Sandbox
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180216T121932Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+46b60129-dcf3-4115-a0b6-1c0e052cfbbb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180303T130602Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

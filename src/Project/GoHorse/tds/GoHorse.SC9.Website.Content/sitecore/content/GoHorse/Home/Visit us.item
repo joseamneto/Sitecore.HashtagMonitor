@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {39FFB879-ADBD-43A2-A4B5-C3D83D9D6062}
+database: master
+path: /sitecore/content/GoHorse/Home/Visit us
+parent: {03A53C20-686D-4074-A310-65049B24C7EF}
+name: Visit us
+master: {00000000-0000-0000-0000-000000000000}
+template: {E4915361-E399-4C44-9908-12BBEB080890}
+templatekey: Page with form
+created: 20180113T194521Z
+
+----version----
+language: en
+version: 1
+revision: b3e5dec5-7761-433a-b0d1-b153ad112541
+
+----field----
+field: {EBB4B619-DF85-4D8C-B03D-4CBD0B580C4E}
+name: BrowserTitle
+key: browsertitle
+content-length: 18
+
+GoHorse: Visit us!
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 751
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{64E276E8-1A99-4B5A-B697-A68436967BC4}" p:before="*" s:ds="{A6CD4866-0E54-4502-808C-E6F0CE7E7784}" s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}" s:par="" s:ph="/page/section-{552AE419-06B1-48B9-9F14-C98D2EC7145F}-0/container-{D71B4C76-95D2-4271-BF7C-6D3DF9949C6A}-0" /><r uid="{D71B4C76-95D2-4271-BF7C-6D3DF9949C6A}" p:after="r[@uid='{64E276E8-1A99-4B5A-B697-A68436967BC4}']" s:id="{44C30CF6-F247-4D15-9C2D-D7AACCCE9111}" s:ph="/page/section-{552AE419-06B1-48B9-9F14-C98D2EC7145F}-0" /><r uid="{552AE419-06B1-48B9-9F14-C98D2EC7145F}" p:after="r[@uid='{D71B4C76-95D2-4271-BF7C-6D3DF9949C6A}']" s:id="{55797A37-FEE5-4635-BFB9-1DCE26D3A983}" s:ph="page" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180113T194522Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b3e5dec5-7761-433a-b0d1-b153ad112541
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180303T154756Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,21 @@
+﻿@using GoHorse.Feature.Identity
+@using GoHorse.Feature.Identity.Repositories
+@using GoHorse.Foundation.SitecoreExtensions.Extensions
+@using Sitecore
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var identity = IdentityRepository.Get(Model.Item);
+    if (identity == null)
+    {
+        return;
+    }
+}
+
+<footer class="footer text-faded text-center py-5">
+    <div class="container">
+        <p class="m-0 small">
+            Copyright &copy; @Html.Sitecore().Field(Templates.Identity.Fields.OrganisationName, identity) 2018
+        </p>
+    </div>
+</footer>

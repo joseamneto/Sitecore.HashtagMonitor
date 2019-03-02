@@ -1,0 +1,48 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="242" designerY="26">
+    <template templatename="HashTag Folder" templateid="{25392608-13DE-4475-82D5-9F4BB8C11C65}" templateuri="/gohorse.local/master/{25392608-13DE-4475-82D5-9F4BB8C11C65}" classname="HashTagFolder" />
+  </shape>
+  <shape designerX="31" designerY="247">
+    <template templatename="Pattern Card" templateid="{4A6A7E36-2481-438F-A9BA-0453ECC638FA}" templateuri="/gohorse.local/master/{4A6A7E36-2481-438F-A9BA-0453ECC638FA}" classname="PatternCard">
+      <section id="{D453A95B-6697-469B-8FE5-D384A6F1432F}" name="Data">
+        <field id="{FE732790-2DDB-4657-A882-C2FCE1FBF0C9}" name="Name" shared="0" source="" type="Single-Line Text" unversioned="1" propertyname="PatternName" />
+        <field id="{03DB5C50-D4BF-4E87-9AB4-0E5B4BF4E1A9}" name="Description" shared="0" source="" type="Rich Text" unversioned="1" propertyname="Description" />
+        <field id="{98535F26-6C9D-4FD7-A7E2-392C7CB82D65}" name="Image" shared="0" source="" type="Thumbnail" unversioned="1" propertyname="Image" />
+        <field id="{6DA71AD3-5849-4482-9317-D21390E5A348}" name="Pattern" shared="1" source="" type="Profile Card Value" unversioned="0" propertyname="Pattern" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="320" designerY="253">
+    <template templatename="Profile" templateid="{8E0C1738-3591-4C60-8151-54ABCC9807D1}" templateuri="/gohorse.local/master/{8E0C1738-3591-4C60-8151-54ABCC9807D1}" classname="Profile">
+      <section id="{8C968867-C22A-4669-AD4C-A52D21BFE9BF}" name="Data">
+        <field id="{5D9FE5D7-4C45-4A98-A1F5-4796A6DA428B}" name="Name" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="ProfileName" />
+        <field id="{9FB30799-29EF-46AF-910D-188BD16314B1}" name="Type" shared="1" source="/sitecore/system/Settings/Analytics/Profile Types" type="Droplist" unversioned="0" propertyname="Type" />
+        <field id="{EB6BDFDC-44EC-449C-854B-823F5AF4BE97}" name="Decay" shared="1" source="" type="Number" unversioned="0" propertyname="Decay" />
+        <field id="{E703C891-B96F-449C-A486-A5D3BABFD123}" name="Description" shared="0" source="" type="Rich Text" unversioned="1" propertyname="Description" />
+        <field id="{44706C93-A40B-4AC7-A959-6AFC44EE85D3}" name="Image" shared="0" source="" type="Image" unversioned="1" propertyname="Image" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="530" designerY="253">
+    <template templatename="Profile Key" templateid="{44AB5107-3C73-42F0-A427-BEC549F944B9}" templateuri="/gohorse.local/master/{44AB5107-3C73-42F0-A427-BEC549F944B9}" classname="ProfileKey">
+      <section id="{CC96EC0F-C68F-4D0D-B218-CFE8AE837EB3}" name="Data">
+        <field id="{2E1A9AAB-F7C1-49EE-B032-28B98D3688D6}" name="Name" shared="0" source="" type="Single-Line Text" unversioned="1" propertyname="ProfileKeyName" />
+        <field id="{271D7B0F-446C-4F24-BFE7-E33C20BF7A41}" name="MinValue" shared="1" source="" type="Integer" unversioned="0" propertyname="MinValue" />
+        <field id="{12E2C64A-5F08-4948-86C8-55AE06AFEEF8}" name="MaxValue" shared="1" source="" type="Integer" unversioned="0" propertyname="MaxValue" />
+        <field id="{329B953D-900F-4987-9D68-2B30FF982DBF}" name="DefaultValue" shared="1" source="" type="Integer" unversioned="0" propertyname="DefaultValue" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="20" designerY="28">
+    <template templatename="HashTag" templateid="{C302BA3A-3B47-4C23-B531-6D327372F5E2}" templateuri="/gohorse.local/master/{C302BA3A-3B47-4C23-B531-6D327372F5E2}" classname="HashTag">
+      <section id="{AA8264CA-C364-472D-ACB1-00F62CCA4D77}" name="Configuration">
+        <field id="{1F972D3A-F69D-4A4A-B9DF-811B24F07C15}" name="Hashtag" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Hashtag" />
+        <field id="{3D910726-BA96-41DF-8AFE-48716E715D53}" name="Pattern Card" shared="0" source="/sitecore/system/Marketing Control Panel/Profiles" type="Droptree" unversioned="0" propertyname="PatternCardReference" />
+        <field id="{A9929B36-7C43-424F-A4D1-FA94A4AA3DBC}" name="Goal" shared="0" source="/sitecore/system/Marketing Control Panel/Goals" type="Droptree" unversioned="0" propertyname="GoalReference" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="29" designerY="389">
+    <template templatename="Goal" templateid="{475E9026-333F-432D-A4DC-52E03B75CB6B}" templateuri="/gohorse.local/master/{475E9026-333F-432D-A4DC-52E03B75CB6B}" classname="Goal" />
+  </shape>
+</CodeGeneration>

@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {03A53C20-686D-4074-A310-65049B24C7EF}
+database: master
+path: /sitecore/content/GoHorse/Home
+parent: {AB10C2A5-6662-4818-BCB7-8AD8054361CE}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {FD53407D-7BF8-497F-99C1-2CF8AF8E343F}
+templatekey: Home
+created: 20180216T122002Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 741
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{96E1D0A5-5525-4A01-B5B0-8BB90B018301}" p:before="*" s:ds="{AC515D70-FCC7-4C0C-A5A0-5F2A5D739CAC}" s:id="{2530E068-6574-4699-A734-5BFC0DE95548}" s:ph="/page/section-{A4F9FF4F-4D40-43BB-AA51-173955A56859}-0/col-huge-{4ED082BD-B7B2-4E57-A61D-E581AA9D1710}-0" /><r uid="{4ED082BD-B7B2-4E57-A61D-E581AA9D1710}" p:after="r[@uid='{96E1D0A5-5525-4A01-B5B0-8BB90B018301}']" s:id="{EB564A21-CF46-4351-B604-6E12713F9865}" s:ph="/page/section-{A4F9FF4F-4D40-43BB-AA51-173955A56859}-0" /><r uid="{A4F9FF4F-4D40-43BB-AA51-173955A56859}" p:after="r[@uid='{4ED082BD-B7B2-4E57-A61D-E581AA9D1710}']" s:id="{55797A37-FEE5-4635-BFB9-1DCE26D3A983}" s:ph="page" /></d></r>
+----version----
+language: en
+version: 1
+revision: f4582ffc-4778-4d83-91c9-fa6cd9ec4c1e
+
+----field----
+field: {EBB4B619-DF85-4D8C-B03D-4CBD0B580C4E}
+name: BrowserTitle
+key: browsertitle
+content-length: 36
+
+GoHorse: FRESH COFFEE WORTH DRINKING
+----field----
+field: {5D6B2190-3457-47E3-81C7-E98FADEBA8AB}
+name: MetaDescription
+key: metadescription
+content-length: 0
+
+
+----field----
+field: {956ED28C-1F32-4E97-B6A2-88DDAF4447CD}
+name: CustomMetaData
+key: custommetadata
+content-length: 18
+
+author=Joao%20Neto
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 2437
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{C86D6CEA-A59B-4365-8814-007D9EAB5B99}" p:before="*" s:ds="{54C0F9A8-2AB0-46B0-A9C7-8549C18A0812}" s:id="{819D4613-451C-41FE-A287-991F0B452E98}" s:par="" s:ph="/page/section-{820315FF-AF15-4327-977E-02D78C1BF7C1}-0/col-huge-{84BE87E8-0689-49EA-902C-FE14C6F5C85A}-0" /><r uid="{84BE87E8-0689-49EA-902C-FE14C6F5C85A}" p:after="r[@uid='{C86D6CEA-A59B-4365-8814-007D9EAB5B99}']" s:ds="" s:id="{EB564A21-CF46-4351-B604-6E12713F9865}" s:par="CSSClass=mx-auto" s:ph="/page/section-{820315FF-AF15-4327-977E-02D78C1BF7C1}-0" /><r uid="{CA2CB893-8C41-44CB-861B-11320F963D8A}" p:after="r[@uid='{84BE87E8-0689-49EA-902C-FE14C6F5C85A}']" s:ds="{0B30C8E2-C821-46AD-9085-0E210543B584}" s:id="{8781A038-2BE4-4547-8156-41450230131C}" s:par="" s:ph="/page/section-{A4F9FF4F-4D40-43BB-AA51-173955A56859}-0/col-huge-{4ED082BD-B7B2-4E57-A61D-E581AA9D1710}-0/teaser-bottom-{96E1D0A5-5525-4A01-B5B0-8BB90B018301}-0" /><r uid="{96E1D0A5-5525-4A01-B5B0-8BB90B018301}" s:ds="{573F6EC4-70AF-4818-BD38-8591A1CABA24}"><rls><ruleset><rule uid="{322C5D42-B736-499A-BB47-C3D9D4A4058B}" s:name="Tweeted"><conditions><condition uid="D26C0A695ECC4E54BE269E65C48B8452" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{1C335DA5-3860-4266-8A43-FE574A8F1A44}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="60" s:NumberOfPastInteractionsOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfPastInteractions="1000" /></conditions><actions><action uid="DB43F26A05DE40E69686BCCA7E629C3A" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{CD08F3C2-08C9-41D5-8BF2-7E358CC7D33D}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="E87A475ABFB846D7A27CEC944421F9AD" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="AD67743E00234098B226F093AB609E61" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{573F6EC4-70AF-4818-BD38-8591A1CABA24}" /></actions></rule></ruleset></rls></r><r uid="{820315FF-AF15-4327-977E-02D78C1BF7C1}" p:after="r[@uid='{A4F9FF4F-4D40-43BB-AA51-173955A56859}']" s:ds="" s:id="{55797A37-FEE5-4635-BFB9-1DCE26D3A983}" s:par="CSSClass=cta" s:ph="page" /><r uid="{966219BD-B6B8-484F-B9F2-976E02699869}"><p:d /></r><r uid="{1A11697E-9FDD-49C2-8D01-0241C3892BB3}" p:after="*[1=2]" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180216T122002Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f4582ffc-4778-4d83-91c9-fa6cd9ec4c1e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180303T201250Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

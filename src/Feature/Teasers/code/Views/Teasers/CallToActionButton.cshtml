@@ -1,0 +1,17 @@
+﻿@using GoHorse.Feature.Teasers
+@using GoHorse.Foundation.Alerts
+@using GoHorse.Foundation.Alerts.Extensions
+@using GoHorse.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@if (!Model?.Item?.IsDerived(Templates.CallToActionButton.ID) ?? true)
+{
+    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.TeaserContent.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+    return;
+}
+
+<div class="intro-button mx-auto">
+    <a class="btn btn-primary btn-xl" href="@Model.Item.LinkFieldUrl(Templates.CallToActionButton.Fields.Link)">
+        @Html.Sitecore().Field(Templates.CallToActionButton.Fields.Label, Model.Item)
+    </a>
+</div>
